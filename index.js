@@ -14,5 +14,6 @@ function happyHolidayTo("holiday", "name") {
   return `Happy ${holiday}, ${name}`
 }
 function holidayCountdown("holiday", "days") {
+  console.log("It's 30 days until Halloween")
   return `It's ${days} days until ${holiday}!`
 }
